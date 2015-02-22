@@ -1,0 +1,43 @@
+body {
+  color: #666666;
+  font-family: Helvetica, Arial;
+  font-size: 100%;
+  /* Base font-size of 16px */ }
+
+h1 {
+  color: #1f868f;
+  font-size: 2em;
+  font-weight: normal; }
+
+h2 {
+  font-size: 1em;
+  font-weight: normal; }
+
+label {
+  font-weight: bold;
+  display: block; }
+
+input {
+  display: block;
+  margin: 5px 0px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #666666; }
+  input.ng-invalid {
+    border: 1px solid #d73f66; }
+
+span.warning {
+  color: #d73f66; }
+
+button {
+  display: block;
+  margin: 10px 0px 0px 200px;
+  clear: both;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #085ea6;
+  box-shadow: 5px 5px 8px #aaa;
+  border: 1px solid #085a9b;
+  color: #fff; }
+  button:hover {
+    cursor: pointer; }

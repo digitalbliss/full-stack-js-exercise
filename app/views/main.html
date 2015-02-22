@@ -1,0 +1,10 @@
+<h1>Reset your password by SMS</h1>
+<h2>Enter the 6-digit code sent to your mobile ********70</h2>
+
+<form name="form" novalidate form-validator>
+    <label>Code</label>
+    <input ng-model="code" name="code" required maxlength="6" ng-change="validateInputField(code)"/>
+    <span ng-if="didCodeWork">Please enter the 6-digit code.</span>
+    <span ng-if="!didCodeWork" class="warning">That code didnt work, please check and try again.</span>
+    <button ng-disabled="form.$invalid" ng-click="submit()">Submit</button>
+</form>
